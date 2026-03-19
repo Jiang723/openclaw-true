@@ -535,7 +535,10 @@
     },
     "./cli-entry": "./openclaw.mjs"
   },
-  "scripts": {
+   "scripts": {
+    "start": "node server.js"
+  }
+}
     "android:assemble": "cd apps/android && ./gradlew :app:assembleDebug",
     "android:bundle:release": "bun apps/android/scripts/build-release-aab.ts",
     "android:format": "cd apps/android && ./gradlew :app:ktlintFormat :benchmark:ktlintFormat",
